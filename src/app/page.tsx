@@ -10,7 +10,6 @@ export default function Home() {
 
   const session = useSession()
 
-
   if (session.status == "authenticated") {
     return (<ChatPage />)
   }
@@ -19,7 +18,11 @@ export default function Home() {
     return (<Login />)
   }
 
-  return (<div>loading</div>);
+  return (
+    <div className="flex items-center justify-center h-screen">
+      <div className="loader">Loading...</div>
+    </div>
+  );
 
 }
 

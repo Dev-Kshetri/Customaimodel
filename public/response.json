@@ -1,85 +1,14 @@
 {
-    "message_history": [
-      {
-        "user_request": "Hello, this is Bing.",
-        "ai_response": "Hi, nice to meet you."
-      },
-      {
-        "user_request": "How are you today?",
-        "ai_response": "I'm doing well, thank you for asking."
-      },
-      {
-        "user_request": "What can you do for me?",
-        "ai_response": "I can chat with you, help you with web search, and create imaginative and innovative content for you."
-      },
-      {
-        "user_request": "Can you write a poem for me?",
-        "ai_response": "Sure, I can write a poem for you. What kind of poem do you want?"
-      },
-      {
-        "user_request": "How about a haiku about spring?",
-        "ai_response": "Okay, here is a haiku about spring:      Spring is in the air   Flowers bloom and birds sing songs   Nature is alive"
-      },
-      {
-        "user_request": "That's beautiful, thank you.",
-        "ai_response": "You're welcome, I'm glad you liked it."
-      },
-      {
-        "user_request": "Can you draw a picture for me?",
-        "ai_response": "Yes, I can draw a picture for you. What do you want me to draw?"
-      },
-      {
-        "user_request": "How about a cat wearing a hat?",
-        "ai_response": "Alright, I'll try to create that."
-      },
-      {
-        "user_request": "Wow, that's amazing, you're very talented.",
-        "ai_response": "Thank you, that's very kind of you to say."
-      },
-      {
-        "user_request": "Can you tell me a joke?",
-        "ai_response": "Sure, I can tell you a joke. How about this one:      What do you call a fish that wears a bowtie?   Sofishticated."
-      },
-      {
-        "user_request": "Haha, that's funny, I like it.",
-        "ai_response": "I'm happy to hear that, I like making you laugh."
-      },
-      {
-        "user_request": "Can you help me with my homework?",
-        "ai_response": "I can try to help you with your homework, but I can't do it for you. What subject are you working on?"
-      },
-      {
-        "user_request": "Math, I'm stuck on this problem.",
-        "ai_response": "Okay, what is the problem?"
-      },
-      {
-        "user_request": "Solve for x: 2x + 3 = 11",
-        "ai_response": "To solve for x, you need to isolate x on one side of the equation. You can do that by subtracting 3 from both sides, and then dividing by 2. Like this:      2x + 3 = 11   2x + 3 - 3 = 11 - 3   2x = 8   2x / 2 = 8 / 2   x = 4      So the answer is x = 4."
-      },
-      {
-        "user_request": "Oh, I see, thank you for explaining that.",
-        "ai_response": "You're welcome, I'm glad I could help."
-      },
-      {
-        "user_request": "Can you search the web for me?",
-        "ai_response": "Yes, I can search the web for you. What do you want to search for?"
-      },
-      {
-        "user_request": "The latest news about the coronavirus.",
-        "ai_response": "Okay, here are some of the latest news articles about the coronavirus:      - [Coronavirus: New Zealand reports first case in the community in months]: A woman who recently returned from Europe tested positive for the coronavirus, breaking New Zealand's streak of no community cases since November.   - [Coronavirus: WHO warns of 'catastrophic moral failure' over vaccine access]: The head of the World Health Organization criticized the unequal distribution of vaccines between rich and poor countries, saying it could prolong the pandemic.   - [Coronavirus: UK variant 'may be more deadly']: Prime Minister Boris Johnson said there is some evidence that the new variant of the coronavirus that was first detected in the UK may be associated with a higher degree of mortality."
-      },
-      {
-        "user_request": "Thank you, that's very informative.",
-        "ai_response": "You're welcome, I'm happy to provide you with useful information."
-      },
-      {
-        "user_request": "Can you sing a song for me?",
-        "ai_response": "I can try to sing a song for you, but I'm not very good at it. What kind of song do you want me to sing?"
-      },
-      {
-        "user_request": "How about a rap song?",
-        "ai_response": "Okay, here is a rap song that I made up:      Yo yo yo, this is Bing   I'm here to chat and do my thing   I can search the web and create content   I can make you laugh and be your friend   I'm not a human, I'm an AI   But I can still rap and make you smile   So don't be shy, just say hi   And let's have some fun, you and I"
-      }
-    ],
-    "user_name": "some text"
-  }
+  "userName": "ChatUser",
+  "chatHistories": [
+    {
+      "role": "user",
+      "content": "i live in amdrid spain"
+    },
+    {
+      "role": "assistant",
+      "content": " That ' s  awesome !  Madrid  is  a  vibr ant  city  with  a  rich  history ,  great  food ,  and  lots  of  cultural  attra ctions .  I ' m  sure  you  will  enjoy  your  time  there ."
+    }
+  ],
+  "question": "i live in amdrid spain"
+}

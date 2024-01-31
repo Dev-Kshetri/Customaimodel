@@ -2,6 +2,7 @@ import SessionWrapper from "@/utils/SessionProvider";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Outfit as Font } from "next/font/google";
+import { QueryProvider } from "./context/QueryProvider";
 
 
 // @ts-ignore
@@ -19,11 +20,13 @@ export default function RootLayout({
 }>) {
   return (
     <SessionWrapper>
-      <html lang="en">
-        <body className={font.className} suppressHydrationWarning={true}>
-          {children}
-        </body>
-      </html >
+      <QueryProvider>
+        <html lang="en">
+          <body className={font.className} suppressHydrationWarning={true}>
+            {children}
+          </body>
+        </html >
+      </QueryProvider>
     </SessionWrapper>
   );
 }
