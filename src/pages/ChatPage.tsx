@@ -10,7 +10,7 @@ import { IoIosSend } from 'react-icons/io';
 import { useEffect, useRef, useState } from 'react';
 import { MdOutlineAttachFile } from 'react-icons/md';
 import { MdOutlineEmojiEmotions } from 'react-icons/md';
-import { Chats } from './Chats';
+import Chats from './Chats';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 
